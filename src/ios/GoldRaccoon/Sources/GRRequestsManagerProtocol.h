@@ -101,7 +101,7 @@
 /**
  The hostname of the FTP service.
  */
-@property (nonatomic, copy) NSString *hostname;
+@property (nonatomic, readonly, copy) NSString *hostname;
 
 /** 
  @brief Add a request to the manager for listing a directory at a given path.
